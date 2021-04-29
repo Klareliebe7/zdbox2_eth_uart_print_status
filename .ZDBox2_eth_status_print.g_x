@@ -1,0 +1,107 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Includes</name>
+      <values lines_count="9">
+        <Line>"${S32_SDK_PATH}/platform/drivers/src/clock/MPC57xx"</Line>
+        <Line>"${S32_SDK_PATH}/rtos/osif/"</Line>
+        <Line>"${S32_SDK_PATH}/platform/pal/inc"</Line>
+        <Line>"${S32_SDK_PATH}/platform/pal/inc"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/common"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/MPC5748G/include"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/MPC5748G/startup"</Line>
+        <Line>"${S32_SDK_PATH}/platform/drivers/inc"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Symbols</name>
+      <values lines_count="1">
+        <Line>CPU_MPC5748G</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_c_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_MPC5748G_176"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/uart_pal2.c" FileDate="2021-04-28, 16:28:59" FileAge="1619620139122" FileType="45637" CompNumb="95" />
+      <File Name="Generated_Code/uart_pal1.h" FileDate="2021-04-28, 16:28:59" FileAge="1619620139136" FileType="45637" CompNumb="93" />
+      <File Name="SDK/platform/drivers/src/enet/enet_hw_access.c" FileDate="2021-01-12, 10:55:51" FileAge="1610445351665" FileType="262144" />
+      <File Name="SDK/platform/devices/MPC5748G/startup/system_MPC5748G.h" FileDate="2021-01-12, 10:55:42" FileAge="1610445342504" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2021-01-12, 10:55:50" FileAge="1610445350167" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/linflexd/linflexd_uart_irq.h" FileDate="2021-01-12, 10:55:52" FileAge="1610445352721" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_irq.h" FileDate="2021-01-12, 10:55:51" FileAge="1610445351280" FileType="262144" />
+      <File Name="Generated_Code/uart_pal1.c" FileDate="2021-04-28, 16:28:59" FileAge="1619620139132" FileType="45637" CompNumb="93" />
+      <File Name="SDK/platform/drivers/src/pins/siul2/siul2_hw_access.h" FileDate="2021-01-12, 10:55:53" FileAge="1610445353313" FileType="262144" />
+      <File Name="SDK/platform/devices/MPC5748G/startup/system_MPC5748G.c" FileDate="2021-01-12, 10:55:42" FileAge="1610445342476" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/linflexd/linflexd_uart_irq.c" FileDate="2021-01-12, 10:55:52" FileAge="1610445352702" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_irq.c" FileDate="2021-01-12, 10:55:51" FileAge="1610445351264" FileType="262144" />
+      <File Name="SDK/platform/devices/callbacks.h" FileDate="2021-01-12, 10:55:20" FileAge="1610445320339" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/enet/enet_irq.c" FileDate="2021-01-12, 10:55:51" FileAge="1610445351697" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/siul2/siul2_hw_access.c" FileDate="2021-01-12, 10:55:53" FileAge="1610445353294" FileType="262144" />
+      <File Name="Project_Settings/Startup_Code/core0_intc_sw_handlers.S" FileDate="2021-01-12, 10:55:42" FileAge="1610445342146" FileType="262144" />
+      <File Name="SDK/platform/pal/inc/uart_pal_mapping.h" FileDate="2021-01-12, 10:55:54" FileAge="1610445354965" FileType="262144" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2021-04-28, 16:28:59" FileAge="1619620139107" FileType="45637" CompNumb="2" />
+      <File Name="Generated_Code/pin_mux.h" FileDate="2021-04-29, 15:26:28" FileAge="1619702788661" FileType="45637" CompNumb="92" />
+      <File Name="Project_Settings/Startup_Code/interrupt_vectors.S" FileDate="2021-01-12, 10:55:42" FileAge="1610445342209" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/clock_manager.h" FileDate="2021-01-12, 10:55:49" FileAge="1610445349426" FileType="262144" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2021-04-28, 16:28:59" FileAge="1619620139104" FileType="45637" CompNumb="2" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2021-04-29, 15:26:28" FileAge="1619702788661" FileType="45637" CompNumb="92" />
+      <File Name="SDK/platform/devices/MPC5748G/include/MPC5748G_features.h" FileDate="2021-01-12, 10:55:41" FileAge="1610445341134" FileType="262144" />
+      <File Name="SDK/platform/devices/common/s32_core_e200.h" FileDate="2021-01-12, 10:55:20" FileAge="1610445320360" FileType="262144" />
+      <File Name="SDK/platform/pal/src/uart/uart_pal.c" FileDate="2021-01-12, 10:55:55" FileAge="1610445355692" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/cgm_hw_access.h" FileDate="2021-01-12, 10:55:50" FileAge="1610445350729" FileType="262144" />
+      <File Name="Generated_Code/uart_pal_cfg.h" FileDate="2021-04-28, 16:28:59" FileAge="1619620139098" FileType="45637" CompNumb="2" />
+      <File Name="SDK/platform/drivers/inc/edma_driver.h" FileDate="2021-01-12, 10:55:49" FileAge="1610445349615" FileType="262144" />
+      <File Name="SDK/rtos/osif/osif.h" FileDate="2021-01-12, 10:55:57" FileAge="1610445357183" FileType="262144" />
+      <File Name="Sources/main.c" FileDate="2021-04-29, 15:25:50" FileAge="1619702750932" FileType="128" />
+      <File Name="Project_Settings/Linker_Files/linker_flash.ld" FileDate="2021-01-12, 10:55:41" FileAge="1610445341415" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/enet/enet_driver.c" FileDate="2021-01-12, 10:55:51" FileAge="1610445351643" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/cmu_hw_access.h" FileDate="2021-01-12, 10:55:50" FileAge="1610445350792" FileType="262144" />
+      <File Name="Documentation/ZDBox2_eth_status_print.txt" FileDate="2021-04-28, 16:28:59" FileAge="1619620139282" FileType="3072" />
+      <File Name="SDK/platform/devices/MPC5748G/include/MPC5748G.h" FileDate="2021-01-12, 10:55:41" FileAge="1610445341112" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/siul2/pins_siul2_driver.h" FileDate="2021-01-12, 10:55:53" FileAge="1610445353273" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/linflexd/linflexd_uart_driver.c" FileDate="2021-01-12, 10:55:52" FileAge="1610445352680" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/interrupt/interrupt_manager_MPC57xx.c" FileDate="2021-01-12, 10:55:52" FileAge="1610445352620" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/enet_driver.h" FileDate="2021-01-12, 10:55:49" FileAge="1610445349761" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/siul2/pins_siul2_driver.c" FileDate="2021-01-12, 10:55:53" FileAge="1610445353248" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/interrupt_manager.h" FileDate="2021-01-12, 10:55:49" FileAge="1610445349993" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/cgmcs_hw_access.h" FileDate="2021-01-12, 10:55:50" FileAge="1610445350709" FileType="262144" />
+      <File Name="SDK/rtos/osif/osif_baremetal.c" FileDate="2021-01-12, 10:55:57" FileAge="1610445357199" FileType="262144" />
+      <File Name="SDK/platform/devices/device_registers.h" FileDate="2021-01-12, 10:55:20" FileAge="1610445320387" FileType="262144" />
+      <File Name="Project_Settings/Startup_Code/startup_MPC5748G.S" FileDate="2021-01-12, 10:55:42" FileAge="1610445342223" FileType="262144" />
+      <File Name="Project_Settings/Linker_Files/linker_ram.ld" FileDate="2021-01-12, 10:55:41" FileAge="1610445341438" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/clock.h" FileDate="2021-01-12, 10:55:49" FileAge="1610445349414" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_hw_access.h" FileDate="2021-01-12, 10:55:51" FileAge="1610445351249" FileType="262144" />
+      <File Name="SDK/platform/devices/status.h" FileDate="2021-01-12, 10:55:49" FileAge="1610445349348" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/clock_MPC57xx.h" FileDate="2021-01-12, 10:55:50" FileAge="1610445350772" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_hw_access.c" FileDate="2021-01-12, 10:55:51" FileAge="1610445351220" FileType="262144" />
+      <File Name="Documentation/ZDBox2_eth_status_print_Settings.xml" FileDate="2021-04-28, 16:28:59" FileAge="1619620139238" FileType="3072" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/clock_MPC57xx.c" FileDate="2021-01-12, 10:55:50" FileAge="1610445350750" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/edma/edma_driver.c" FileDate="2021-01-12, 10:55:51" FileAge="1610445351205" FileType="262144" />
+      <File Name="Generated_Code/dmaController1.h" FileDate="2021-04-28, 16:28:59" FileAge="1619620139144" FileType="45637" CompNumb="94" />
+      <File Name="Generated_Code/ethernet2.h" FileDate="2021-04-28, 16:28:59" FileAge="1619620139118" FileType="45637" CompNumb="96" />
+      <File Name="SDK/platform/devices/devassert.h" FileDate="2021-01-12, 10:55:20" FileAge="1610445320373" FileType="262144" />
+      <File Name="Generated_Code/dmaController1.c" FileDate="2021-04-28, 16:28:59" FileAge="1619620139140" FileType="45637" CompNumb="94" />
+      <File Name="Generated_Code/ethernet2.c" FileDate="2021-04-29, 12:32:14" FileAge="1619692334994" FileType="45637" CompNumb="96" />
+      <File Name="Generated_Code/ethernet1.h" FileDate="2021-04-28, 16:28:59" FileAge="1619620139166" FileType="45637" CompNumb="86" />
+      <File Name="SDK/platform/drivers/inc/linflexd_uart_driver.h" FileDate="2021-01-12, 10:55:50" FileAge="1610445350008" FileType="262144" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2021-04-28, 16:28:59" FileAge="1619620139176" FileType="45637" CompNumb="88" />
+      <File Name="SDK/platform/drivers/src/linflexd/linflexd_hw_access.h" FileDate="2021-01-12, 10:55:52" FileAge="1610445352659" FileType="262144" />
+      <File Name="Generated_Code/ethernet1.c" FileDate="2021-04-29, 14:55:51" FileAge="1619700951469" FileType="45637" CompNumb="86" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2021-04-28, 16:28:59" FileAge="1619620139171" FileType="45637" CompNumb="88" />
+      <File Name="SDK/platform/pal/inc/uart_pal.h" FileDate="2021-01-12, 10:55:54" FileAge="1610445354945" FileType="262144" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2021-01-12, 10:55:49" FileAge="1610445349329" FileType="262144" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2021-01-12, 10:55:49" FileAge="1610445349317" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC57xx/mc_me_hw_access.h" FileDate="2021-01-12, 10:55:50" FileAge="1610445350818" FileType="262144" />
+      <File Name="Generated_Code/uart_pal2.h" FileDate="2021-04-28, 16:28:59" FileAge="1619620139126" FileType="45637" CompNumb="95" />
+      <File Name="SDK/platform/drivers/src/enet/enet_hw_access.h" FileDate="2021-01-12, 10:55:51" FileAge="1610445351681" FileType="262144" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>13</CodeGenReference>
+</CodeGenerationInfo>
